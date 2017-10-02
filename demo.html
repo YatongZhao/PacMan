@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    #map {
+        position: absolute;
+        left: 50%;
+        top: 50px;
+        transform: translate(-50%,0);
+        /* border-color: transparent; */
+    }
+    .clearfix:after {
+        content: ".";
+        display: block;
+        height: 0;
+        visibility: hidden;
+        clear: both;
+    }
+    .clearfix {
+        *zoom: 1;
+    }
+    </style>
+</head>
+<body>
+    <div id="map" class="clearfix"></div>
+</body>
+<script src="./data.js"></script>
+<script src="./myTools.js"></script>
+<script src="./page_init.js"></script>
+<script src="./main.js"></script>
+</html>
